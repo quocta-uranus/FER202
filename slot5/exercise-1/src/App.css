@@ -1,0 +1,36 @@
+/* Add custom styles for Exercise3 and Exercise4 */
+.custom-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.grid-box {
+  background-color: #e9ecef;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+}
+
+.header {
+  background-color: #343a40;
+}
+
+.logo {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
