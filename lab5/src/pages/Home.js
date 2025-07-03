@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import banner from "../images/banner.png";
 
 const foodImages = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsxY1RwYrwu0e7fYKjQyj4TSHcANi2GTO8Q&s",
