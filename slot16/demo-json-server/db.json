@@ -31,7 +31,7 @@
       "id": "1",
       "username": "admin",
       "email": "admin@example.com",
-      "password": "password123",
+      "password": "123",
       "avatar": "/images/admin-avatar.jpg"
     },
     {

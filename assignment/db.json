@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Toyota Camry 2.5Q 2023",
+      "description": "Động cơ 2.5L, hộp số tự động 6 cấp, nội thất da cao cấp, hỗ trợ lái an toàn, màu đen",
+      "price": "1.300.000.000",
+      "currentPrice": "1.200.000.000",
+      "image": "toyota-camry.avif"
+    },
+    {
+      "id": "3",
+      "name": "Honda CR-V 1.5L Turbo 2023",
+      "description": "Crossover 7 chỗ, động cơ tăng áp, camera 360, cảnh báo điểm mù, màu trắng ngọc trai",
+      "price": "1.150.000.000",
+      "currentPrice": "1.080.000.000",
+      "image": "honda-crv.jpg"
+    },
+    {
+      "id": "3",
+      "name": "VinFast VF 8 Eco",
+      "description": "SUV điện, phạm vi chạy 400km, nội thất hiện đại, màn hình trung tâm 15.6 inch, xe Việt chính hãng",
+      "price": "1.050.000.000",
+      "currentPrice": "950.000.000",
+      "image": "vinfast-vf8.avif"
+    },
+    {
+      "id": "4",
+      "name": "Mazda CX-5 2.0L Premium",
+      "description": "SUV 5 chỗ, công nghệ an toàn i-Activsense, màn hình HUD, ghế lái nhớ vị trí, màu đỏ pha lê",
+      "price": "999.000.000",
+      "currentPrice": "929.000.000",
+      "image": "mazda-cx5.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mercedes-Benz C300 AMG",
+      "description": "Sedan sang trọng, động cơ mild hybrid, nội thất Artico, đèn LED thông minh, xuất xứ Đức",
+      "price": "1.689.000.000",
+      "currentPrice": "1.599.000.000",
+      "image": "mercedes-c300.jpg"
+    },
+    {
+      "id": "6",
+      "name": "BMW 320i Sport Line",
+      "description": "Xe sedan thể thao, động cơ TwinPower Turbo, ghế da cao cấp, kết nối Apple CarPlay, màu xanh đá",
+      "price": "1.799.000.000",
+      "currentPrice": "1.699.000.000",
+      "image": "bmw-320i.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Kia Seltos 1.4 Turbo Deluxe",
+      "description": "SUV đô thị, động cơ tăng áp, màn hình cảm ứng 10.25 inch, hỗ trợ Apple CarPlay & Android Auto",
+      "price": "729.000.000",
+      "currentPrice": "689.000.000",
+      "image": "kia-seltos.webp"
+    },
+    {
+      "id": "8",
+      "name": "Hyundai Tucson 2.0L",
+      "description": "SUV 5 chỗ, cảm biến trước sau, hệ thống hỗ trợ giữ làn, động cơ Smartstream G2.0",
+      "price": "895.000.000",
+      "currentPrice": "860.000.000",
+      "image": "hyundai-tucson.avif"
+    },
+    {
+      "id": "9",
+      "name": "Ford Ranger Wildtrak 2.0L Bi-Turbo",
+      "description": "Bán tải mạnh mẽ, hộp số tự động 10 cấp, dẫn động 2 cầu, màn hình cảm ứng 12 inch",
+      "price": "1.120.000.000",
+      "currentPrice": "1.080.000.000",
+      "image": "ford-ranger.webp"
+    },
+    {
+      "id": "10",
+      "name": "Tesla Model 3 Long Range AWD",
+      "description": "Xe điện hiệu suất cao, tầm hoạt động 580km, hỗ trợ lái tự động, nội thất tối giản",
+      "price": "1.999.000.000",
+      "currentPrice": "1.850.000.000",
+      "image": "tesla-model3.jpg"
+    },
+    {
+      "id": "6ea4",
+      "name": "Audi R8",
+      "description": "Xe rất mạnh",
+      "price": "100.000.000",
+      "currentPrice": "950.000.000",
+      "image": "audi.png"
+    }
+  ]
+}

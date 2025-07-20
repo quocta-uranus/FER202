@@ -1,0 +1,115 @@
+.main-header {
+  margin-bottom: 30px;
+}
+
+.banner {
+  height: 300px;
+  background-image: url("https://drive.gianhangvn.com/image/honda-civic-1-5l-e-2022-2721726j32217.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.main-nav {
+  background-color: var(--container-bg);
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--text-color);
+  margin-left: 20px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
+/* Thêm styles cho các nút chuyển đổi */
+.toggle-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.toggle-button {
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.toggle-button:hover {
+  border-color: var(--primary-color);
+}
+
+.toggle-button svg {
+  margin-right: 5px;
+}
