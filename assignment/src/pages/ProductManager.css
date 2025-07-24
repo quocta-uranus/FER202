@@ -1,0 +1,129 @@
+.product-manager {
+  background-color: var(--container-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.product-manager h2 {
+  font-size: 24px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.product-manager-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-manager-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.product-table th {
+  background-color: var(--form-bg);
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.product-table tr:hover {
+  background-color: var(--form-bg);
+}
+
+.product-table .image-cell {
+  width: 80px;
+}
+
+.product-table .image-cell img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-table .actions-cell {
+  width: 200px;
+  text-align: right;
+}
+
+.product-table .actions-cell button,
+.product-table .actions-cell a {
+  margin-left: 8px;
+}
+
+.product-table .price-cell {
+  width: 120px;
+}
+
+.product-table .description-cell {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  background-color: var(--container-bg);
+  color: var(--text-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.pagination button:hover:not(.active) {
+  background-color: var(--form-bg);
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}

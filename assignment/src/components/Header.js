@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import { useLanguage } from "../contexts/LanguageContext";
 import { useTheme } from "../contexts/ThemeContext";
+import { useAuth } from "../contexts/AuthContext";
 
 function Header() {
   const { language, toggleLanguage, t } = useLanguage();
   const { darkMode, toggleTheme } = useTheme();
+  const { currentUser, logout } = useAuth();
+
+  const handleLogout = () => {
+    logout();
+  };
 
   return (
     <div className="main-header">
@@ -29,8 +35,25 @@ function Header() {
           <Link to="/products/add" className="nav-link">
             {t.addCar}
           </Link>
+          <Link to="/manager" className="nav-link">
+            {t.productManager}
+          </Link>
         </div>
         <div className="nav-controls">
+          {currentUser ? (
+            <div className="user-controls">
+              <span className="welcome-message">
+                {t.welcomeUser.replace("{name}", currentUser.fullName)}
+              </span>
+              <button className="logout-button" onClick={handleLogout}>
+                {t.logout}
+              </button>
+            </div>
+          ) : (
+            <Link to="/login" className="login-link">
+              {t.login}
+            </Link>
+          )}
           <button className="theme-toggle" onClick={toggleTheme}>
             {darkMode ? t.lightMode : t.darkMode}
           </button>
